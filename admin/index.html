@@ -8,8 +8,13 @@
   <body>
     <div id="nc-root"></div>
     <script>
-      // Optional if you're customizing later
-      window.CMS_MANUAL_INIT = false;
+      if (typeof NetlifyCms !== "undefined") {
+        NetlifyCms.init();
+      } else if (typeof CMS !== "undefined") {
+        CMS.init();
+      } else {
+        console.error("Netlify CMS failed to load.");
+      }
     </script>
   </body>
 </html>
