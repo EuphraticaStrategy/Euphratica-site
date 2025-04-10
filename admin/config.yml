@@ -10,33 +10,23 @@ collections:
     label: "Pages"
     files:
       - file: "index.html"
-        label: "Home"
+        label: "Home Page"
         name: "home"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Hero Message", name: "hero", widget: "text" }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - { label: "Hero Text", name: "hero", widget: "text" }
       - file: "about.html"
-        label: "About"
+        label: "About Page"
         name: "about"
         fields:
-          - { label: "About Title", name: "title", widget: "string" }
-          - { label: "Mission", name: "mission", widget: "text" }
-          - { label: "What We Do", name: "what_we_do", widget: "text" }
-          - { label: "Our Principles", name: "principles", widget: "text" }
+          - { label: "Content", name: "body", widget: "markdown" }
       - file: "services.html"
-        label: "Research & Innovation"
-        name: "services"
+        label: "Research Page"
+        name: "research"
         fields:
-          - { label: "Intro Text", name: "intro", widget: "text" }
-          - { label: "Capabilities", name: "capabilities", widget: "list" }
+          - { label: "Content", name: "body", widget: "markdown" }
       - file: "contact.html"
-        label: "Contact"
+        label: "Contact Page"
         name: "contact"
         fields:
-          - { label: "Contact Title", name: "title", widget: "string" }
-          - { label: "Team Members", name: "team", widget: "list", fields: [
-              { label: "Name", name: "name", widget: "string" },
-              { label: "Role", name: "role", widget: "string" },
-              { label: "Degree", name: "degree", widget: "string" },
-              { label: "Email", name: "email", widget: "string" }
-            ] }
+          - { label: "Contact Info", name: "body", widget: "markdown" }

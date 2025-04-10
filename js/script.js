@@ -1,1 +1,1 @@
-console.log('CMS editing ready.');
+console.log('CMS site active');
