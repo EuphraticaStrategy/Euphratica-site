@@ -1,1 +1,1 @@
-console.log('CMS-enabled site loaded.');
+console.log('CMS editing ready.');
