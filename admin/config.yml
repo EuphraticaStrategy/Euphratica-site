@@ -30,3 +30,4 @@ collections:
         name: "contact"
         fields:
           - { label: "Contact Info", name: "body", widget: "markdown" }
+
