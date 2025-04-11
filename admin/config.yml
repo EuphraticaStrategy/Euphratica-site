@@ -15,19 +15,22 @@ collections:
         fields:
           - { label: "Page Title", name: "title", widget: "string" }
           - { label: "Hero Text", name: "hero", widget: "text" }
+
       - file: "about.html"
         label: "About Page"
         name: "about"
         fields:
           - { label: "Content", name: "body", widget: "markdown" }
+
       - file: "services.html"
-        label: "Research Page"
-        name: "research"
+        label: "Research & Innovation Page"
+        name: "services"
         fields:
           - { label: "Content", name: "body", widget: "markdown" }
+
       - file: "contact.html"
         label: "Contact Page"
         name: "contact"
         fields:
-          - { label: "Contact Info", name: "body", widget: "markdown" }
+          - { label: "Content", name: "body", widget: "markdown" }
 
