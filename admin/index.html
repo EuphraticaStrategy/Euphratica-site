@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-  <!-- Include Netlify Identity script for authentication -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Container for the CMS UI -->
-  <div id="nc-root"></div>
-  <div id="nc-modal-root"></div>
-  <!-- Load the Netlify CMS script from CDN -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <header>
+    <h1>{{ title }}</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Research &amp; Innovation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>{{ hero }}</h2>
+    </section>
+
+    <section class="intro">
+      <p>Welcome to Euphratica Strategy. We provide institutional-grade advisory for global-scale resilience—combining research, innovation, and governance in an age of uncertainty.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Euphratica Strategy. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+
 
