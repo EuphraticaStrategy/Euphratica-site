@@ -15,20 +15,29 @@ collections:
         fields:
           - { label: "Page Title", name: "title", widget: "string" }
           - { label: "Hero Text", name: "hero", widget: "text" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+          - { label: "Hero Image Alt Text", name: "hero_image_alt", widget: "string" }
       - file: "about.html"
         label: "About Page"
         name: "about"
         fields:
           - { label: "Content", name: "body", widget: "markdown" }
+          - { label: "Banner Image", name: "banner_image", widget: "image" }
+          - { label: "Banner Image Alt Text", name: "banner_image_alt", widget: "string" }
       - file: "services.html"
         label: "Research Page"
         name: "research"
         fields:
           - { label: "Content", name: "body", widget: "markdown" }
+          - { label: "Banner Image", name: "banner_image", widget: "image" }
+          - { label: "Banner Image Alt Text", name: "banner_image_alt", widget: "string" }
       - file: "contact.html"
         label: "Contact Page"
         name: "contact"
         fields:
           - { label: "Contact Info", name: "body", widget: "markdown" }
+          - { label: "Map / Image", name: "contact_image", widget: "image" }
+          - { label: "Image Alt Text", name: "contact_image_alt", widget: "string" }
+
 
 
